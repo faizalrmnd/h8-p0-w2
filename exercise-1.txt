@@ -1,0 +1,45 @@
+1.
+
+STORE "m" = 600
+STORE "a" = 2
+STORE "ΣF"
+
+CALCULATE "m" times "a"
+SET "ΣF" value with calculation result
+
+DISPLAY "ΣF"
+
+2.
+
+STORE "Year" to any number
+
+IF "Year" "modulo 4" is 0 then
+  IF "Year" "modulo 100" is 0
+    ELSE IF "Year" "modulo 4" is 0 then
+      IF "Year" "modulo 100" is 0 then
+        IF "Year" "modulo 400" is 0
+    DISPLAY "leapYear"
+    ELSE
+      DISPLAY"Not leapYear"
+
+3.
+
+STORE "WashingMachine" with 0
+STORE "Clothes" = 20
+
+WHILE "WashingMachine" < 20
+  ADD "Clothes" by 1
+
+DISPLAY "TurnOnWashingMachine"
+
+4.
+
+STORE "students" to 0
+
+WHILE "inspection" < 40
+  ADD "students" by 1
+
+IF "LongNail"
+  DO "Punish"
+ELSE
+  DO "Praise"
