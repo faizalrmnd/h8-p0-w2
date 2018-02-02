@@ -25,7 +25,6 @@ IF "Year" "modulo 4" is 0 then
 3.
 
 STORE "WashingMachine" with 0
-STORE "Clothes" = 20
 
 WHILE "WashingMachine" < 20
   ADD "Clothes" by 1
